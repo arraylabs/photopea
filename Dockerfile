@@ -6,7 +6,7 @@ RUN apk update && apk upgrade
 
 RUN apk add git python3
 
-RUN git clone  --progress --verbose https://github.com/DUOLabs333/Photopea-Offline.git .
+RUN git clone  --progress --verbose https://github.com/DUOLabs333/photopea.git .
 
 EXPOSE 8887
 
